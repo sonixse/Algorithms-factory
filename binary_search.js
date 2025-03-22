@@ -1,5 +1,12 @@
-/* Returns either the index of the location in the array,
-  or -1 if the array did not contain the targetValue */
+/*
+
+Implementation of the Binary Search Algorithm in JavaScript.
+
+Search for a target value in a sorted array by repeatedly dividing the search interval in half. 
+Returns either the index of the location in the array if found, or -1 if the array did not contain the targetValue.
+
+*/
+
   var doSearch = function(array, targetValue) {
     var min = 0;
     var max = array.length - 1;
